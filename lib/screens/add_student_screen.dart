@@ -16,7 +16,12 @@ class AddStudentScreen extends StatelessWidget {
                         labelText: "Name"
                     ),
                 ),
-                
+                TextField(
+                    decoration: InputDecoration(
+                        labelText: 'Age'
+                    ),
+                    keyboardType: TextInputType.number,
+                )
             ],
         ),
     );
